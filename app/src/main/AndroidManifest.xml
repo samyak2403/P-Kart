@@ -12,9 +12,11 @@
         android:theme="@style/Theme.PKart"
         tools:targetApi="31">
         <activity
+            android:name=".activity.ProductDetailsActivity"
+            android:exported="false" />
+        <activity
             android:name=".activity.CategoryActivity"
             android:exported="false" />
-
         <activity
             android:name=".MainActivity"
             android:exported="true">
